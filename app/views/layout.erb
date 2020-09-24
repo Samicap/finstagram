@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets.normalize.css">
+        <link rel="stylesheet" href="https://fonts.google.apis.com/css?family=Roboto+Condensed:300itlaic,700italic,700,300">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/stylesheets/lib.css">
+        <link rel="stylesheet" href="/stylesheets/app.css">
+        <link rel="stylesheet" href="/stylesheets/fire.css">
+        <title>Finstagram</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="/">Finstagram</a>
+            </h1>
+            <div class="login-info">
+                <% if current_user%>
+                    <%=current_user.username %>
+                    <a href="/logout">Logout</a>
+                <% else %>
+                    <a href="/login">Login</a>
+                    <a hfref="/signup">Signup</a>
+                <% end %>
+            </div>
+        </header>
+        <main role="main">
+            <%= yield %>
+        </main>
+    </body>
+</html>

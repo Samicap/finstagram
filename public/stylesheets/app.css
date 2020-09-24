@@ -1,0 +1,32 @@
+header{
+    background-color: #244751;
+    color: #E8FDFF;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+}
+main { 
+    background-color: white;
+}
+
+
+.finstagram-post {
+    margin-bottom: 48px;
+}
+
+.finstagram-post .user-info img {
+    border-radius: 50%;
+}
+
+a.photo {
+    transition: padding 0.5s;
+}
+
+a.photo:hover {
+    padding: 10px;
+}
+
+.user-info:hover {
+    color:tomato;
+}

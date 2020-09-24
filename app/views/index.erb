@@ -1,0 +1,27 @@
+<% if current_user %>
+    <div class="new-finstagram-post">
+        <a href="/finstagram_posts/new" class="button">New Post</a>
+    </div>
+<% end %>
+
+
+<% @finstagram_posts.each do |finstagram_post| %>
+    <%= erb(:"shared/finstagram_post", { locals: { finstagram_post: finstagram_post, allow_new_comment: false}}) %>
+
+<% end %>
+
+
+/* what does this actually do to create fire?
+what is i?  is it defined anywhere? Didn't see it in fire.css */
+<div class="container fire">
+    <% (1..16).each do |i| %> 
+        <div class="spark"></div>
+    <% end %>
+</div>
+<div class="container smoke">
+    <% (1..16).each do |i| %>
+        <div class="dust"></div>
+    <% end %>
+</div>
+
+

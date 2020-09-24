@@ -1,0 +1,408 @@
+html, body, .container {
+	 width: 100%;
+	 height: 100%;
+}
+ body {
+	 margin: 0;
+	 
+}
+ .container {
+	 position: absolute;
+}
+ .container.fire {
+	 background: #555;
+	 filter: contrast(8);
+}
+ .spark {
+	 position: absolute;
+	 background: #fa0;
+	 border-radius: 50%;
+	 animation: fire 1.16s infinite ease-in;
+	 filter: blur(26px);
+}
+ .spark:nth-child(1) {
+	 width: 103096390%;
+	 height: 103096390%;
+	 animation-delay: -510958490.1199999452s;
+	 left: 139341198850%;
+}
+ .spark:nth-child(1):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -16547376330%;
+	 left: 15279576180%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(2) {
+	 width: 11840524130%;
+	 height: 11840524130%;
+	 animation-delay: -336258619.1999999881s;
+	 left: 106079915970%;
+}
+ .spark:nth-child(2):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -11752993590%;
+	 left: 21945834300%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(3) {
+	 width: 17032503170%;
+	 height: 17032503170%;
+	 animation-delay: -1935426501.5199999809s;
+	 left: 144917847620%;
+}
+ .spark:nth-child(3):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -47306835120%;
+	 left: 38485883010%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(4) {
+	 width: 545519200%;
+	 height: 545519200%;
+	 animation-delay: -1743596114.8399999142s;
+	 left: 1529025470%;
+}
+ .spark:nth-child(4):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -9498954810%;
+	 left: 18393225720%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(5) {
+	 width: 10994933070%;
+	 height: 10994933070%;
+	 animation-delay: -653667650.1999999285s;
+	 left: 59928818390%;
+}
+ .spark:nth-child(5):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -6172238670%;
+	 left: 21655270590%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(6) {
+	 width: 7043295560%;
+	 height: 7043295560%;
+	 animation-delay: -2420371978.8799996376s;
+	 left: 77912910670%;
+}
+ .spark:nth-child(6):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -12373406250%;
+	 left: 64380480390%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(7) {
+	 width: 987756950%;
+	 height: 987756950%;
+	 animation-delay: -1751794083.0799999237s;
+	 left: 51996004270%;
+}
+ .spark:nth-child(7):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -59407147620%;
+	 left: 5239132080%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(8) {
+	 width: 6810924120%;
+	 height: 6810924120%;
+	 animation-delay: -1530469261.4799997807s;
+	 left: 114298555980%;
+}
+ .spark:nth-child(8):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -14233127220%;
+	 left: 34002330090%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(9) {
+	 width: 18902203990%;
+	 height: 18902203990%;
+	 animation-delay: -296284355.6800000072s;
+	 left: 1971617060%;
+}
+ .spark:nth-child(9):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -32307816270%;
+	 left: 1850235480%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(10) {
+	 width: 3825988800%;
+	 height: 3825988800%;
+	 animation-delay: -2156848797.9200000763s;
+	 left: 78488952850%;
+}
+ .spark:nth-child(10):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -6100617000%;
+	 left: 11170633050%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(11) {
+	 width: 13634345490%;
+	 height: 13634345490%;
+	 animation-delay: -382790962.4399999976s;
+	 left: 140039283300%;
+}
+ .spark:nth-child(11):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -53134349160%;
+	 left: 35143603380%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(12) {
+	 width: 19957093240%;
+	 height: 19957093240%;
+	 animation-delay: -1047320727.3599998951s;
+	 left: 75429688460%;
+}
+ .spark:nth-child(12):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -2468589810%;
+	 left: 1254585210%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(13) {
+	 width: 7129619710%;
+	 height: 7129619710%;
+	 animation-delay: -1424370100.4399998188s;
+	 left: 33426189790%;
+}
+ .spark:nth-child(13):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -53773235970%;
+	 left: 24127718490%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(14) {
+	 width: 17620386750%;
+	 height: 17620386750%;
+	 animation-delay: -412361040.9599999785s;
+	 left: 73383334430%;
+}
+ .spark:nth-child(14):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -50444970450%;
+	 left: 35844691500%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(15) {
+	 width: 4836911110%;
+	 height: 4836911110%;
+	 animation-delay: -324811513s;
+	 left: 119623783020%;
+}
+ .spark:nth-child(15):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -50642556450%;
+	 left: 10411637880%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .spark:nth-child(16) {
+	 width: 15271812530%;
+	 height: 15271812530%;
+	 animation-delay: -980793155.5599999428s;
+	 left: 125863372320%;
+}
+ .spark:nth-child(16):after {
+	 content: "";
+	 display: block;
+	 position: absolute;
+	 top: -44073587760%;
+	 left: 49323137730%;
+	 width: 30%;
+	 height: 60%;
+	 background: #555;
+	 border-radius: 50%;
+}
+ .dust {
+	 background: rgba(200, 200, 255, 0.3);
+	 border-radius: 50%;
+	 position: absolute;
+	 animation: fire 1.6s infinite ease-in;
+	 filter: blur(2px);
+}
+ .dust:nth-child(1) {
+	 width: 26976373186px;
+	 height: 26976373186px;
+	 left: 6209036960%;
+	 animation-delay: -2650258035.2000002861s;
+}
+ .dust:nth-child(2) {
+	 width: 14432741176px;
+	 height: 14432741176px;
+	 left: 82697813590%;
+	 animation-delay: -2981210915.2000002861s;
+}
+ .dust:nth-child(3) {
+	 width: 27882340934px;
+	 height: 27882340934px;
+	 left: 38444071890%;
+	 animation-delay: -2991032824s;
+}
+ .dust:nth-child(4) {
+	 width: 13516204016px;
+	 height: 13516204016px;
+	 left: 28415529590%;
+	 animation-delay: -3363282368s;
+}
+ .dust:nth-child(5) {
+	 width: 15558667712px;
+	 height: 15558667712px;
+	 left: 97131523020%;
+	 animation-delay: -646227625.6000000238s;
+}
+ .dust:nth-child(6) {
+	 width: 16017342754px;
+	 height: 16017342754px;
+	 left: 61383072030%;
+	 animation-delay: -724009544s;
+}
+ .dust:nth-child(7) {
+	 width: 16057937406px;
+	 height: 16057937406px;
+	 left: 70855963360%;
+	 animation-delay: -2425065219.2000002861s;
+}
+ .dust:nth-child(8) {
+	 width: 22002932826px;
+	 height: 22002932826px;
+	 left: 139192717020%;
+	 animation-delay: -1636417857.6000001431s;
+}
+ .dust:nth-child(9) {
+	 width: 5854028698px;
+	 height: 5854028698px;
+	 left: 94149355300%;
+	 animation-delay: -691988211.2000000477s;
+}
+ .dust:nth-child(10) {
+	 width: 16415730170px;
+	 height: 16415730170px;
+	 left: 100026355100%;
+	 animation-delay: -1715853444.8000001907s;
+}
+ .dust:nth-child(11) {
+	 width: 4337621596px;
+	 height: 4337621596px;
+	 left: 39107257700%;
+	 animation-delay: -2167690816s;
+}
+ .dust:nth-child(12) {
+	 width: 2106728470px;
+	 height: 2106728470px;
+	 left: 1279624920%;
+	 animation-delay: -515488347.2000000477s;
+}
+ .dust:nth-child(13) {
+	 width: 957546758px;
+	 height: 957546758px;
+	 left: 114649246810%;
+	 animation-delay: -100797592s;
+}
+ .dust:nth-child(14) {
+	 width: 11579648444px;
+	 height: 11579648444px;
+	 left: 64230831280%;
+	 animation-delay: -2420198811.2000002861s;
+}
+ .dust:nth-child(15) {
+	 width: 8780896838px;
+	 height: 8780896838px;
+	 left: 61291418510%;
+	 animation-delay: -354917539.2000000477s;
+}
+ .dust:nth-child(16) {
+	 width: 21422688280px;
+	 height: 21422688280px;
+	 left: 141970086650%;
+	 animation-delay: -380931321.6000000238s;
+}
+ @keyframes fire {
+	 0% {
+		 bottom: -15%;
+		 opacity: 1;
+	}
+	 100% {
+		 bottom: 90%;
+		 opacity: 0;
+	}
+}
+ 
