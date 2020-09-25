@@ -9,7 +9,7 @@ configure do
   if Sinatra::Application.development?
     set :database, {
       adapter: "sqlite3",
-      database: "db/db.sqlite3"
+      database: "postgres://mjsjqtumtpwxrg:a1460d40b15878c9eb035646247d5c4f42bc340b363307fc8311b2a39cf5d460@ec2-52-7-39-178.compute-1.amazonaws.com:5432/ddrte3s81bgr8q"
     }
   else
     db_url = 'postgres://[your_postgres_url here]'
